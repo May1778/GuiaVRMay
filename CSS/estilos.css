@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    font-family: "Science Gothic", sans-serif;
+    
+    
+}
+body{
+    text-align:center;
+    
+}
+a{
+    text-decoration: none;
+    color:grey;
+    transition: 0.5s;
+}
+a:hover{
+    color: cyan;
+    
+}
+header{
+    background-image: url("imagenes/Barra-background.png");
+    font-size: 20px;
+    
+}
+video{
+    border-radius:20px;
+    transition: 0.5s;
+}
+video:hover{
+    border-radius:20px;
+    transform: scale(1.05);
+}
+
+main h1{
+
+    color:orangered;
+
+}
+main h2{
+
+    color:orangered;
+
+}
+main p{
+
+    font-size:20px;
+    color:orange;
+
+}
+#twittercuenta{
+
+    border-radius:20px;
+    transition:0.5s;
+    
+}
+#logovictory:hover{
+
+    transform: scale(1.1);
+    
+}
+#logovictory{
+
+    transition:0.5s;
+    
+}
+#twittercuenta:hover{
+
+    transform: scale(1.1);
+    
+}
+
+
+main{
+    text-align:center;
+    width: 65%;
+    margin:auto;
+    background-image: url("imagenes/main_background.png");
+    background-size: 100%;
+    
+    
+    
+}
+body {
+    margin:auto;
+    background-image: url("imagenes/background.png");
+    background-size: 100%;
+}
