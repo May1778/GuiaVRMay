@@ -24,11 +24,6 @@ header{
 }
 video{
     border-radius:20px;
-    transition: 0.5s;
-}
-video:hover{
-    border-radius:20px;
-    transform: scale(1.05);
 }
 
 main h1{
@@ -51,6 +46,8 @@ main p{
 
     border-radius:20px;
     transition:0.5s;
+    width: 50%;
+    height: 50%;
     
 }
 #logovictory:hover{
@@ -60,6 +57,9 @@ main p{
 }
 #logovictory{
 
+    width: 50%;
+    height: 50%;
+
     transition:0.5s;
     
 }
@@ -67,6 +67,64 @@ main p{
 
     transform: scale(1.1);
     
+}
+#barras{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+    
+}
+#barras:hover{
+
+    transform:scale(1.1);
+   
+    
+}
+#falta1{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+}
+#falta1:hover{
+    transform: scale(1.1);
+}
+#falta2{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+}
+#falta2:hover{
+    transform: scale(1.1);
+}
+#portero1{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+}
+#portero1:hover{
+    transform: scale(1.1);
+}
+#portero2{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+}
+#portero2:hover{
+    transform: scale(1.1);
+}
+#Supertactica{
+    width:30%;
+    height: 30%;
+    transition: 0.5s;
+    border-radius:20px;
+}
+#Supertactica:hover{
+    transform: scale(1.1);
 }
 
 
@@ -83,5 +141,6 @@ main{
 body {
     margin:auto;
     background-image: url("imagenes/background.png");
+    background-attachment: fixed;
     background-size: 100%;
 }
