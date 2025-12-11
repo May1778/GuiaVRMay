@@ -17,9 +17,14 @@ a:hover{
     color: cyan;
     
 }
+#Cambiopag{
+    font-size:20px;
+}
 header{
     background-image: url("imagenes/Barra-background.png");
+    background-size:185%;
     font-size: 20px;
+    border-radius:10px;
     
 }
 video{
@@ -40,6 +45,7 @@ main p{
 
     font-size:20px;
     color:orange;
+    margin:2px;
 
 }
 #twittercuenta{
@@ -62,6 +68,33 @@ main p{
 
     transition:0.5s;
     
+}
+#Arquetipos{
+    width: 35%;
+    height: 35%;
+    border-radius:20px;
+    transition:0.5s;
+}
+#Arquetipos:hover{
+    transform: scale(1.1);
+}
+#pasivaimg{
+    width: 35%;
+    height: 35%;
+    border-radius:20px;
+    transition:0.5s;
+}
+#pasivaimg:hover{
+    transform: scale(1.1);
+}
+#TablaPasivas{
+    width: 20%;
+    height: 20%;
+    border-radius:20px;
+    transition:0.5s;
+}
+#TablaPasivas:hover{
+    transform: scale(1.05);
 }
 #twittercuenta:hover{
 
@@ -134,6 +167,7 @@ main{
     margin:auto;
     background-image: url("imagenes/main_background.png");
     background-size: 100%;
+    border-radius:10px;
     
     
     
@@ -142,5 +176,5 @@ body {
     margin:auto;
     background-image: url("imagenes/background.png");
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 102%;
 }
