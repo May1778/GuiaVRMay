@@ -6,23 +6,41 @@
 body {
   text-align: center;
 }
+
 a {
   text-decoration: none;
   color: grey;
   transition: 0.5s;
 }
+
 a:hover {
   color: cyan;
 }
+
+#actual {
+  text-decoration: none;
+  color: blue;
+  transition: 0.5s;
+}
+
+#actual:hover {
+  color: cyan;
+}
+
 #Cambiopag {
   font-size: 20px;
 }
+
 header {
   background-image: url("imagenes/Barra-background.png");
   background-size: 185%;
   font-size: 20px;
   border-radius: 10px;
+  border: 3px solid orangered;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
+
 video {
   border-radius: 20px;
 }
@@ -30,110 +48,134 @@ video {
 main h1 {
   color: orangered;
 }
+
 main h2 {
   color: orangered;
 }
+
 main p {
   font-size: 20px;
   color: orange;
   margin: 2px;
 }
+
 #twittercuenta {
   border-radius: 20px;
   transition: 0.5s;
   width: 50%;
   height: 50%;
 }
+
 #logovictory:hover {
   transform: scale(1.1);
 }
+
 #logovictory {
   width: 50%;
   height: 50%;
 
   transition: 0.5s;
 }
+
 #Arquetipos {
   width: 35%;
   height: 35%;
   border-radius: 20px;
   transition: 0.5s;
 }
+
 #Arquetipos:hover {
   transform: scale(1.1);
 }
+
 #pasivaimg {
   width: 35%;
   height: 35%;
   border-radius: 20px;
   transition: 0.5s;
 }
+
 #pasivaimg:hover {
   transform: scale(1.1);
 }
+
 #TablaPasivas {
   width: 20%;
   height: 20%;
   border-radius: 20px;
   transition: 0.5s;
 }
+
 #TablaPasivas:hover {
   transform: scale(1.05);
 }
+
 #twittercuenta:hover {
   transform: scale(1.1);
 }
+
 #barras {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #barras:hover {
   transform: scale(1.1);
 }
+
 #falta1 {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #falta1:hover {
   transform: scale(1.1);
 }
+
 #falta2 {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #falta2:hover {
   transform: scale(1.1);
 }
+
 #portero1 {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #portero1:hover {
   transform: scale(1.1);
 }
+
 #portero2 {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #portero2:hover {
   transform: scale(1.1);
 }
+
 #Supertactica {
   width: 30%;
   height: 30%;
   transition: 0.5s;
   border-radius: 20px;
 }
+
 #Supertactica:hover {
   transform: scale(1.1);
 }
@@ -145,6 +187,7 @@ main {
   background-image: url("imagenes/main_background.png");
   background-size: 100%;
   border-radius: 10px;
+  border: 3px solid blue;
 }
 
 body {
@@ -193,23 +236,40 @@ body {
   body {
     text-align: center;
   }
+
   a {
     text-decoration: none;
     color: grey;
     transition: 0.5s;
   }
+
   a:hover {
     color: cyan;
   }
+  #actual {
+  text-decoration: none;
+  color: blue;
+  transition: 0.5s;
+}
+
+#actual:hover {
+  color: cyan;
+}
+
   #Cambiopag {
     font-size: 10px;
   }
+
   header {
     background-image: url("imagenes/Barra-background.png");
     background-size: 100%;
     font-size: 10px;
     border-radius: 2px;
+    border: 2px solid orangered;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
+
   video {
     border-radius: 2px;
   }
@@ -217,113 +277,138 @@ body {
   main h1 {
     color: orangered;
   }
+
   main h2 {
     color: orangered;
   }
+
   main p {
     font-size: 10px;
     color: orange;
     margin: 2px;
   }
-   main a {
+
+  main a {
     font-size: 10px;
   }
+
   #twittercuenta {
     border-radius: 2px;
     transition: 0.5s;
     width: 80%;
     height: 80%;
   }
+
   #logovictory:hover {
     transform: scale(1.1);
   }
+
   #logovictory {
     width: 80%;
     height: 80%;
 
     transition: 0.5s;
   }
+
   #Arquetipos {
     width: 70%;
     height: 70%;
     border-radius: 2px;
     transition: 0.5s;
   }
+
   #Arquetipos:hover {
     transform: scale(1.1);
   }
+
   #pasivaimg {
     width: 70%;
     height: 70%;
     border-radius: 2px;
     transition: 0.5s;
   }
+
   #pasivaimg:hover {
     transform: scale(1.1);
   }
+
   #TablaPasivas {
     width: 50%;
     height: 50%;
     border-radius: 2px;
     transition: 0.5s;
   }
+
   #TablaPasivas:hover {
     transform: scale(1.05);
   }
+
   #twittercuenta:hover {
     transform: scale(1.1);
   }
+
   #barras {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #barras:hover {
     transform: scale(1.1);
   }
+
   #falta1 {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #falta1:hover {
     transform: scale(1.1);
   }
+
   #falta2 {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #falta2:hover {
     transform: scale(1.1);
   }
+
   #portero1 {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #portero1:hover {
     transform: scale(1.1);
   }
+
   #portero2 {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #portero2:hover {
     transform: scale(1.1);
   }
+
   #Supertactica {
     width: 70%;
     height: 70%;
     transition: 0.5s;
     border-radius: 2px;
   }
+
   #Supertactica:hover {
     transform: scale(1.1);
   }
@@ -335,6 +420,8 @@ body {
     background-image: url("imagenes/main_background.png");
     background-size: 100%;
     border-radius: 2px;
+    border: 2px solid blue;
+
   }
 
   body {
