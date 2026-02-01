@@ -12,18 +12,32 @@
 
 <body>
 
-    <header>
-
-        
-
-        <p> &nbsp;<a href="index.html">INICIO</a>  &nbsp;   - &nbsp; <a id="actual" href="mecanicas.html">MECÁNICAS</a>  &nbsp;   - &nbsp;  <a href="arquetipos.html">ARQUETIPOS</a> &nbsp; - &nbsp; <a href="estadisticas.html">ESTADÍSTICAS</a> &nbsp;   - &nbsp; <a href="pasivas.html">PASIVAS</a> &nbsp;       - &nbsp; <a href="supertecnicas.html">SUPERTÉCNICAS</a> &nbsp;   - &nbsp; <a href="hipertecnicas.html">HIPERTÉCNICAS</a> &nbsp;   - &nbsp; <a href="grindeo.html">GRINDEO</a> &nbsp;   - &nbsp; <a href="informacionextra.html">INFORMACIÓN EXTRA</a> &nbsp;   - &nbsp; <a href="tips.html">TIPS</a> &nbsp;</p>
+    <div id="menu-wrapper">
 
 
-    </header>
+
+        <header id="navbar">
+            <p>
+                &nbsp;<a href="index.html">INICIO</a> &nbsp; - &nbsp;
+                <a id="actual" href="mecanicas.html">MECÁNICAS</a> &nbsp; - &nbsp;
+                <a href="arquetipos.html">ARQUETIPOS</a> &nbsp; - &nbsp;
+                <a href="estadisticas.html">ESTADÍSTICAS</a> &nbsp; - &nbsp;
+                <a href="pasivas.html">PASIVAS</a> &nbsp; - &nbsp;
+                <a href="supertecnicas.html">SUPERTÉCNICAS</a> &nbsp; - &nbsp;
+                <a href="hipertecnicas.html">HIPERTÉCNICAS</a> &nbsp; - &nbsp;
+                <a href="grindeo.html">GRINDEO</a> &nbsp; - &nbsp;
+                <a href="informacionextra.html">INFORMACIÓN EXTRA</a> &nbsp; - &nbsp;
+                <a href="tips.html">TIPS</a>
+            </p>
+        </header>
+
+        <button id="toggleNav">☰ MENÚ</button>
+
+    </div>
 
     <main>
 
-        <br><br>
+        <br><br><br><br>
 
         <h1>MECÁNICAS</h1>
 
@@ -901,6 +915,20 @@
 
     <footer><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br></footer>
+
+    <script>
+        const boton = document.getElementById("toggleNav");
+        const wrapper = document.getElementById("menu-wrapper");
+
+        boton.addEventListener("click", () => {
+            wrapper.classList.toggle("activo");
+            boton.textContent = wrapper.classList.contains("activo")
+                ? "✖ CERRAR"
+                : "☰ MENÚ";
+        });
+
+
+    </script>
 
 </body>
 

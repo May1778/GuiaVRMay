@@ -2,6 +2,65 @@
   margin: 0;
   font-family: "Science Gothic", sans-serif;
 }
+#menu-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+
+    transform: translateY(-60px); 
+    transition: transform 0.35s ease;
+}
+#actual {
+  text-decoration: none;
+  color: blue;
+  transition: 0.5s;
+}
+
+
+
+#menu-wrapper.activo {
+    transform: translateY(0);
+}
+
+
+
+
+#navbar {
+    background: #111;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 3px solid orange;
+}
+
+
+
+
+#navbar.activo {
+    transform: translateY(0);
+}
+
+
+
+#toggleNav {
+    display: block;
+    margin: 0 auto;
+
+    padding: 10px 25px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
 body {
   text-align: center;
@@ -15,12 +74,6 @@ a {
 
 a:hover {
   color: cyan;
-}
-
-#actual {
-  text-decoration: none;
-  color: blue;
-  transition: 0.5s;
 }
 
 #actual:hover {
@@ -232,6 +285,54 @@ body {
     margin: 0;
     font-family: "Science Gothic", sans-serif;
   }
+
+  #menu-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+
+    transform: translateY(-60px); 
+    transition: transform 0.35s ease;
+}
+
+
+
+#menu-wrapper.activo {
+    transform: translateY(0);
+}
+
+
+
+
+#navbar {
+    background: #111;
+    text-align: center;
+    padding: 10 px 0;
+    border-top: 3px solid orange;
+}
+
+
+
+
+#navbar.activo {
+    transform: translateY(0);
+}
+
+
+
+#toggleNav {
+    display: block;
+    margin: 0 auto;
+
+    padding: 10 px 25px;
+    background: #222;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
 
   body {
     text-align: center;
